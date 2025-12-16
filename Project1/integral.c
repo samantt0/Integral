@@ -38,7 +38,7 @@ double trapezoid(double a, double b, int n) //функция для метода
             continue;
         else //меняет знак
         {
-            double xr = find(x1, x2);
+            double xr = find(x1, x2);   
             double yr = 0;
             double width;
 
@@ -174,4 +174,3 @@ is too small for accuracy.\n");
 
     return 0;
 }
-
